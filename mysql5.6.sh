@@ -45,7 +45,7 @@ while :
                 ;;
 	esac
   done
-cp git1/$n/my.cnf /etc/my.cnf      
+/usr/bin/cp git1/$n/my.cnf /etc/my.cnf      
 service mysqld start
         if [ $? -eq 0 ]; then
         echo "mysqld start successfully"
