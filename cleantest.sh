@@ -1,3 +1,4 @@
+#! /bin/bash
 service mysqld restart
 sync 
 mysql -uroot < /root/newdump.sql
