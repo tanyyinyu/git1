@@ -46,6 +46,7 @@ while :
 	esac
   done
 /usr/bin/cp git1/$n/my.cnf /etc/my.cnf      
+echo "PATH=$PATH:/usr/local/mysql/bin/" >>/etc/profile
 service mysqld start
         if [ $? -eq 0 ]; then
         echo "mysqld start successfully"
