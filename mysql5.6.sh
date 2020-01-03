@@ -10,12 +10,8 @@ if [ -f mysql-5.6.46-linux-glibc2.12-x86_64.tar.gz ]
 	exit 1
 fi
 cd ..
-if [ -r mysql ] 
-  then
-	rm -rf mysql
-fi
-mv src/mysql-5.6.46-linux-glibc2.12-x86_64.tar.gz ./mysql
-    cd ./mysql
+mv mysql-5.6.46-linux-glibc2.12-x86_64 ../mysql
+    cd ../mysql
      useradd mysql
      mkdir -p /data/mysql
     chown mysql:mysql /data/mysql
