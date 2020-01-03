@@ -23,7 +23,7 @@ sleep 1
      chkconfig --add mysqld
 yum install -y git
 cd /root/
-git clone git@github.com:tanyyinyu/git1.git
+git clone https://github.com/tanyyinyu/git1.git
 while :
   do
 	read -p "please input to choose a cnf from (small,medium,large,huge):" n
