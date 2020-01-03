@@ -11,4 +11,5 @@ mysql -uroot -e "create database testdb"
 sysbench --mysql-host=127.0.0.1 --mysql-user=root  --mysql-db=testdb --report-interval=10 --time=$t1 --tables=$tn --table-size=$ts --threads=$tr /usr/share/sysbench/oltp_read_write.lua prepare
 sysbench --mysql-host=127.0.0.1 --mysql-user=root  --mysql-db=testdb --report-interval=10 --time=$t1 --tables=$tn --table-size=$ts --threads=$tr /usr/share/sysbench/oltp_read_write.lua run |egrep "transactions|queries" >> ~/mysql.log
 sysbench --mysql-host=127.0.0.1 --mysql-user=root  --mysql-db=testdb --report-interval=10 --time=$t1 --tables=$tn --table-size=$ts --threads=$tr /usr/share/sysbench/oltp_read_write.lua cleanup
+mysql -uroot -e "drop database testdb"
 tail  ~/mysql.log
