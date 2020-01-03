@@ -1,7 +1,7 @@
 #! /bin/bash
 cd /usr/local/src
-#yum install -y wget
-#   wget -c  http://mirrors.163.com/mysql/Downloads/MySQL-5.6/mysql-5.6.43-linux-glibc2.12-x86_64.tar.gz
+yum install -y wget
+#   wget -c https://cdn.mysql.com//Downloads/MySQL-5.6/mysql-5.6.46-linux-glibc2.12-x86_64.tar.gz
 if [ -f mysql-5.6.46-linux-glibc2.12-x86_64.tar.gz ]
   then
 	tar -zxvf mysql-5.6.46-linux-glibc2.12-x86_64.tar.gz
