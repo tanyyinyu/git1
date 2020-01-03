@@ -1,5 +1,5 @@
 #! /bin/bash
-tt=`date +%Y-%m-%d`
+tt=`date`
 read -p "please input test config (small,medium,large,huge):" con
 read -p "please input test table numbers:" tn
 read -p "please input test table size:" ts 
