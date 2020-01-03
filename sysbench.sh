@@ -1,3 +1,4 @@
+#! /bin/bash
 tt=`date +%Y-%m-%d`
 read -p "please input test config (small,medium,large,huge):" con
 read -p "please input test table numbers:" tn
