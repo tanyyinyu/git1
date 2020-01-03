@@ -9,8 +9,13 @@ if [ -f mysql-5.6.46-linux-glibc2.12-x86_64.tar.gz ]
 	echo "there is no mysql.tar file"
 	exit 1
 fi
-mv mysql-5.6.46-linux-glibc2.12-x86_64.tar.gz ../mysql
-    cd ../mysql
+cd ..
+if [ -r mysql ] 
+  then
+	rm -rf mysql
+fi
+mv src/mysql-5.6.46-linux-glibc2.12-x86_64.tar.gz ./mysql
+    cd ./mysql
      useradd mysql
      mkdir -p /data/mysql
     chown mysql:mysql /data/mysql
