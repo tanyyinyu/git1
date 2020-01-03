@@ -21,7 +21,10 @@ sleep 1
      chkconfig --add mysqld
 #yum install -y git
 cd /root/
-git clone https://github.com/tanyyinyu/git1.git
+if [ ! -r git1 ]
+  then
+	git clone https://github.com/tanyyinyu/git1.git
+fi
 while :
   do
 	read -p "please input to choose a cnf from (small,medium,large,huge):" n
