@@ -9,7 +9,6 @@ if [ -f mysql-5.6.46-linux-glibc2.12-x86_64.tar.gz ]
 	echo "there is no mysql.tar file"
 	exit 1
 fi
-cd ..
 mv mysql-5.6.46-linux-glibc2.12-x86_64 ../mysql
     cd ../mysql
      useradd mysql
