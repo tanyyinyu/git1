@@ -40,6 +40,9 @@ while :
 	  'huge')    
                 break
                 ;;
+	  'websetting')
+		break
+		;;
 	  *)    
                 continue
                 ;;
@@ -48,6 +51,7 @@ while :
 /usr/bin/cp git1/$n/my.cnf /etc/my.cnf      
 echo "export PATH=$PATH:/usr/local/mysql/bin/" >>/etc/profile
 source /etc/profile
+sleep 1
 service mysqld start
         if [ $? -eq 0 ]; then
         echo "mysqld start successfully"
