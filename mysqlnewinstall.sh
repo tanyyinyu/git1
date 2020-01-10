@@ -26,7 +26,7 @@ cd /root/
 git clone https://github.com/tanyyinyu/git1.git
 while :
   do
-	read -p "please input to choose a cnf from (small,medium,large,huge):" n
+	read -p "please input to choose a cnf from (small,medium,large,huge,websetting):" n
 	case "$n" in
 	  'small')
 		break
