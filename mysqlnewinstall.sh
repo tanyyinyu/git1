@@ -49,8 +49,8 @@ while :
 	esac
   done
 /usr/bin/cp git1/$n/my.cnf /etc/my.cnf      
-echo "export PATH=$PATH:/usr/local/mysql/bin/" >>/etc/profile
-source /etc/profile
+echo "export PATH=$PATH:/usr/local/mysql/bin/" >>/etc/bashrc
+source /etc/bashrc
 sleep 1
 service mysqld start
         if [ $? -eq 0 ]; then
