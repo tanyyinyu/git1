@@ -1,7 +1,7 @@
 #! /bin/bash
 cd /usr/local/src
 yum install -y wget
-#   wget -c https://cdn.mysql.com//Downloads/MySQL-5.6/mysql-5.6.46-linux-glibc2.12-x86_64.tar.gz
+   wget -c https://cdn.mysql.com//Downloads/MySQL-5.6/mysql-5.6.46-linux-glibc2.12-x86_64.tar.gz
 if [ -f mysql-5.6.46-linux-glibc2.12-x86_64.tar.gz ]
   then
 	tar -zxvf mysql-5.6.46-linux-glibc2.12-x86_64.tar.gz
@@ -26,7 +26,7 @@ cd /root/
 git clone https://github.com/tanyyinyu/git1.git
 while :
   do
-	read -p "please input to choose a cnf from (small,medium,large,huge,websetting):" n
+	read -p "please input to choose a cnf from (small,medium,large,huge,websetfor4G,webset2for2G):" n
 	case "$n" in
 	  'small')
 		break
@@ -40,7 +40,10 @@ while :
 	  'huge')    
                 break
                 ;;
-	  'websetting')
+	  'websetfor4G')
+		break
+		;;
+	  'webset2for2G')
 		break
 		;;
 	  *)    
