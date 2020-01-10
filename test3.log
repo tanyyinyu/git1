@@ -1,0 +1,103 @@
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 17:21:04 CST
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 17:21:07 CST
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 17:21:10 CST
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 17:21:13 CST
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 17:21:16 CST
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 17:24:11 CST
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 17:24:15 CST
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 17:24:18 CST
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 17:24:21 CST
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 17:26:19 CST
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 17:26:25 CST
+    queries performed:
+    transactions:                        41007  (681.86 per sec.)
+    queries:                             820140 (13637.10 per sec.)
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 17:28:13 CST
+    queries performed:
+    transactions:                        41650  (692.81 per sec.)
+    queries:                             833000 (13856.20 per sec.)
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 17:30:03 CST
+    queries performed:
+    transactions:                        40663  (674.37 per sec.)
+    queries:                             813260 (13487.46 per sec.)
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 17:31:52 CST
+    queries performed:
+    transactions:                        41523  (690.97 per sec.)
+    queries:                             830460 (13819.46 per sec.)
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 18:03:09 CST
+    queries performed:
+    transactions:                        69913  (1163.49 per sec.)
+    queries:                             1398260 (23269.78 per sec.)
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 18:04:48 CST
+    queries performed:
+    transactions:                        70546  (1174.11 per sec.)
+    queries:                             1410920 (23482.26 per sec.)
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 18:06:26 CST
+    queries performed:
+    transactions:                        70452  (1172.15 per sec.)
+    queries:                             1409040 (23443.04 per sec.)
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 18:08:03 CST
+    queries performed:
+    transactions:                        69710  (1160.36 per sec.)
+    queries:                             1394200 (23207.12 per sec.)
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 18:09:41 CST
+    queries performed:
+    transactions:                        70436  (1172.28 per sec.)
+    queries:                             1408720 (23445.62 per sec.)
+test of fromgoogle config,4 tables, size:2000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 18:13:34 CST
+    queries performed:
+    transactions:                        67886  (1129.46 per sec.)
+    queries:                             1357720 (22589.15 per sec.)
+test of fromgoogle config,4 tables, size:2000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 18:16:02 CST
+    queries performed:
+    transactions:                        64720  (1077.28 per sec.)
+    queries:                             1294400 (21545.57 per sec.)
+test of fromgoogle config,4 tables, size:2000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 18:18:32 CST
+    queries performed:
+    transactions:                        67159  (1117.74 per sec.)
+    queries:                             1343180 (22354.73 per sec.)
+test of fromgoogle config,4 tables, size:2000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 18:21:01 CST
+    queries performed:
+    transactions:                        66397  (1104.95 per sec.)
+    queries:                             1327940 (22099.03 per sec.)
+test of fromgoogle config,4 tables, size:2000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 18:23:30 CST
+    queries performed:
+    transactions:                        65343  (1086.91 per sec.)
+    queries:                             1306860 (21738.18 per sec.)
+test of fromgoogle config,4 tables, size:5000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 18:28:44 CST
+test of fromgoogle config,4 tables, size:5000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 18:43:50 CST
+test of fromgoogle config,4 tables, size:3000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 18:46:40 CST
+    queries performed:
+    transactions:                        63595  (1058.58 per sec.)
+    queries:                             1271900 (21171.58 per sec.)
+test of fromgoogle config,4 tables, size:3000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 18:47:45 CST
+test of fromgoogle config,6 tables, size:2000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 19:16:04 CST
+test of fromgoogle config,6 tables, size:2000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 19:16:37 CST
+test of fromgoogle config,6 tables, size:2000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 19:22:35 CST
+    queries performed:
+    transactions:                        28479  (473.81 per sec.)
+    queries:                             569580 (9476.27 per sec.)
+test of fromgoogle config,6 tables, size:2000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 19:26:02 CST
+test of fromgoogle config,6 tables, size:1000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 19:31:54 CST
+    queries performed:
+    transactions:                        69062  (1149.11 per sec.)
+    queries:                             1381240 (22982.22 per sec.)
+test of fromgoogle config,6 tables, size:1000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 19:34:05 CST
+    queries performed:
+    transactions:                        69024  (1148.66 per sec.)
+    queries:                             1380480 (22973.23 per sec.)
+test of fromgoogle config,8 tables, size:1000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 19:36:39 CST
+    queries performed:
+    transactions:                        67018  (1114.76 per sec.)
+    queries:                             1340360 (22295.12 per sec.)
+test of fromgoogle config,10 tables, size:1000000, threads:100, 60 second at 4G 2020年 01月 10日 星期五 19:44:15 CST
+test of fromgoogle config,4 tables, size:1000000, threads:150, 60 second at 4G 2020年 01月 10日 星期五 20:01:40 CST
+test of fromgoogle config,4 tables, size:1000000, threads:150, 60 second at 4G 2020年 01月 10日 星期五 20:05:15 CST
+    queries performed:
+    transactions:                        62452  (1039.07 per sec.)
+    queries:                             1249040 (20781.34 per sec.)
+test of fromgoogle config,4 tables, size:1000000, threads:200, 60 second at 4G 2020年 01月 10日 星期五 20:07:56 CST
+test of fromgoogle config,8 tables, size:1000000, threads:150, 60 second at 4G 2020年 01月 10日 星期五 20:27:29 CST
+    queries performed:
+    transactions:                        61941  (1026.98 per sec.)
+    queries:                             1238820 (20539.51 per sec.)

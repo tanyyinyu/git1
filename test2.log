@@ -1,0 +1,81 @@
+test of small config,30 tables, size:100000, threads:100, 60 second at 1G 2020年 01月 04日 星期六 22:48:13 CST
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 2G 2020年 01月 04日 星期六 22:50:39 CST
+    queries performed:
+    transactions:                        78934  (1314.12 per sec.)
+    queries:                             1669868 (27800.47 per sec.)
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 2G 2020年 01月 04日 星期六 22:51:43 CST
+    queries performed:
+    transactions:                        38347  (636.86 per sec.)
+    queries:                             766940 (12737.27 per sec.)
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 2G 2020年 01月 04日 星期六 22:53:35 CST
+    queries performed:
+    transactions:                        37991  (631.59 per sec.)
+    queries:                             759820 (12631.86 per sec.)
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 2G 2020年 01月 04日 星期六 22:55:23 CST
+    queries performed:
+    transactions:                        38194  (635.38 per sec.)
+    queries:                             763880 (12707.67 per sec.)
+test of huge config,4 tables, size:1000000, threads:100, 60 second at 2G 2020年 01月 04日 星期六 22:57:12 CST
+    queries performed:
+    transactions:                        38306  (637.31 per sec.)
+    queries:                             766120 (12746.26 per sec.)
+test of huge config,4 tables, size:500000, threads:100, 60 second at 2G 2020年 01月 04日 星期六 23:12:39 CST
+    queries performed:
+    transactions:                        48355  (802.80 per sec.)
+    queries:                             967116 (16056.21 per sec.)
+test of huge config,4 tables, size:500000, threads:100, 60 second at 2G 2020年 01月 04日 星期六 23:14:05 CST
+    queries performed:
+    transactions:                        48905  (806.85 per sec.)
+    queries:                             978100 (16136.98 per sec.)
+test of huge config,4 tables, size:500000, threads:100, 60 second at 2G 2020年 01月 04日 星期六 23:15:32 CST
+    queries performed:
+    transactions:                        47493  (789.53 per sec.)
+    queries:                             949860 (15790.61 per sec.)
+test of huge config,4 tables, size:500000, threads:100, 60 second at 2G 2020年 01月 04日 星期六 23:17:00 CST
+    queries performed:
+    transactions:                        49172  (818.09 per sec.)
+    queries:                             983440 (16361.87 per sec.)
+test of huge config,4 tables, size:500000, threads:100, 60 second at 2G 2020年 01月 04日 星期六 23:18:27 CST
+    queries performed:
+    transactions:                        45227  (751.67 per sec.)
+    queries:                             904540 (15033.31 per sec.)
+test of huge config,4 tables, size:100000, threads:100, 60 second at 2G 2020年 01月 04日 星期六 23:21:13 CST
+    queries performed:
+    transactions:                        63527  (1057.02 per sec.)
+    queries:                             1270540 (21140.49 per sec.)
+test of huge config,4 tables, size:100000, threads:100, 60 second at 2G 2020年 01月 04日 星期六 23:22:20 CST
+    queries performed:
+    transactions:                        69004  (1148.64 per sec.)
+    queries:                             1380080 (22972.73 per sec.)
+test of huge config,4 tables, size:100000, threads:100, 60 second at 2G 2020年 01月 04日 星期六 23:23:29 CST
+    queries performed:
+    transactions:                        67480  (1122.81 per sec.)
+    queries:                             1349600 (22456.20 per sec.)
+test of huge config,4 tables, size:100000, threads:100, 60 second at 2G 2020年 01月 04日 星期六 23:24:37 CST
+    queries performed:
+    transactions:                        68498  (1140.27 per sec.)
+    queries:                             1369960 (22805.32 per sec.)
+test of huge config,4 tables, size:100000, threads:100, 60 second at 2G 2020年 01月 04日 星期六 23:25:45 CST
+    queries performed:
+    transactions:                        69517  (1157.09 per sec.)
+    queries:                             1390340 (23141.75 per sec.)
+test of huge config,4 tables, size:1000000, threads:50, 60 second at 2G 2020年 01月 04日 星期六 23:31:17 CST
+    queries performed:
+    transactions:                        39531  (657.96 per sec.)
+    queries:                             790620 (13159.16 per sec.)
+test of huge config,4 tables, size:1000000, threads:50, 60 second at 2G 2020年 01月 04日 星期六 23:33:09 CST
+    queries performed:
+    transactions:                        40021  (665.71 per sec.)
+    queries:                             800420 (13314.16 per sec.)
+test of huge config,4 tables, size:1000000, threads:50, 60 second at 2G 2020年 01月 04日 星期六 23:34:59 CST
+    queries performed:
+    transactions:                        39773  (659.27 per sec.)
+    queries:                             795460 (13185.49 per sec.)
+test of huge config,4 tables, size:1000000, threads:50, 60 second at 2G 2020年 01月 04日 星期六 23:36:48 CST
+    queries performed:
+    transactions:                        39727  (660.49 per sec.)
+    queries:                             794540 (13209.77 per sec.)
+test of huge config,4 tables, size:1000000, threads:50, 60 second at 2G 2020年 01月 04日 星期六 23:38:38 CST
+    queries performed:
+    transactions:                        40080  (665.44 per sec.)
+    queries:                             801600 (13308.73 per sec.)

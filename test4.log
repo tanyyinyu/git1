@@ -1,0 +1,53 @@
+test of web2 config,4 tables, size:1000000, threads:100, 60 second at 2G 2020年 01月 10日 星期五 20:58:37 CST
+test of web2 config,4 tables, size:1000000, threads:100, 60 second at 2G 2020年 01月 10日 星期五 21:00:20 CST
+    queries performed:
+    transactions:                        46341  (769.71 per sec.)
+    queries:                             926820 (15394.19 per sec.)
+test of web2 config,4 tables, size:1000000, threads:100, 60 second at 2G 2020年 01月 10日 星期五 21:09:06 CST
+    queries performed:
+    transactions:                        45795  (762.40 per sec.)
+    queries:                             915900 (15247.95 per sec.)
+test of web2 config,4 tables, size:1000000, threads:100, 60 second at 2G 2020年 01月 10日 星期五 21:11:22 CST
+    queries performed:
+    transactions:                        47441  (790.17 per sec.)
+    queries:                             948820 (15803.41 per sec.)
+test of web2 config,4 tables, size:1000000, threads:100, 60 second at 2G 2020年 01月 10日 星期五 21:13:44 CST
+    queries performed:
+    transactions:                        48501  (807.40 per sec.)
+    queries:                             970020 (16147.98 per sec.)
+test of web2 config,4 tables, size:1000000, threads:100, 60 second at 2G 2020年 01月 10日 星期五 21:16:03 CST
+    queries performed:
+    transactions:                        47220  (784.74 per sec.)
+    queries:                             944400 (15694.73 per sec.)
+test of web2 config,4 tables, size:1000000, threads:100, 60 second at 2G 2020年 01月 10日 星期五 21:18:20 CST
+    queries performed:
+    transactions:                        45066  (749.46 per sec.)
+    queries:                             901320 (14989.26 per sec.)
+test of web2 config,8 tables, size:1000000, threads:100, 60 second at 2G 2020年 01月 10日 星期五 21:26:00 CST
+    queries performed:
+    transactions:                        19786  (328.64 per sec.)
+    queries:                             395720 (6572.78 per sec.)
+test of web2 config,8 tables, size:1000000, threads:100, 60 second at 2G 2020年 01月 10日 星期五 21:29:29 CST
+    queries performed:
+    transactions:                        20141  (334.67 per sec.)
+    queries:                             402820 (6693.37 per sec.)
+test of web2 config,8 tables, size:1000000, threads:100, 60 second at 2G 2020年 01月 10日 星期五 21:32:54 CST
+    queries performed:
+    transactions:                        19106  (317.30 per sec.)
+    queries:                             382120 (6345.95 per sec.)
+test of web2 config,8 tables, size:1000000, threads:100, 60 second at 2G 2020年 01月 10日 星期五 21:36:27 CST
+    queries performed:
+    transactions:                        19611  (325.50 per sec.)
+    queries:                             392220 (6510.04 per sec.)
+test of web2 config,8 tables, size:1000000, threads:100, 60 second at 2G 2020年 01月 10日 星期五 21:39:55 CST
+    queries performed:
+    transactions:                        20221  (335.62 per sec.)
+    queries:                             404420 (6712.33 per sec.)
+test of web2 config,6 tables, size:1000000, threads:100, 60 second at 2G 2020年 01月 10日 星期五 21:44:54 CST
+    queries performed:
+    transactions:                        26378  (438.12 per sec.)
+    queries:                             527560 (8762.39 per sec.)
+test of web2 config,6 tables, size:1000000, threads:100, 60 second at 2G 2020年 01月 10日 星期五 21:47:47 CST
+    queries performed:
+    transactions:                        27634  (458.71 per sec.)
+    queries:                             552680 (9174.24 per sec.)
