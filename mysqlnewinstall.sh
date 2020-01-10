@@ -59,3 +59,4 @@ service mysqld start
         echo "fault"
         fi
 mysqldump -uroot -A > /root/newdump.sql
+yum install -y sysbench
