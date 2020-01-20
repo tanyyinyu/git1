@@ -1,0 +1,16 @@
+test of small config,4 tables, size:100000, threads:50, 60 second at 500M 2020年 01月 21日 星期二 00:11:26 CST
+    queries performed:
+    transactions:                        54656  (907.66 per sec.)
+    queries:                             1093136 (18153.40 per sec.)
+test of medium config,4 tables, size:100000, threads:50, 60 second at 500M 2020年 01月 21日 星期二 00:25:11 CST
+    queries performed:
+    transactions:                        67340  (1119.44 per sec.)
+    queries:                             1346800 (22388.89 per sec.)
+test of medium config,4 tables, size:100000, threads:50, 60 second at 500M 2020年 01月 21日 星期二 00:53:43 CST
+    queries performed:
+    transactions:                        67260  (1115.20 per sec.)
+    queries:                             1345200 (22304.04 per sec.)
+test of medium config,4 tables, size:100000, threads:50, 60 second at 500M from internal network 2020年 01月 21日 星期二 00:49:11 CST
+    queries performed:
+    transactions:                        15247  (252.57 per sec.)
+    queries:                             304940 (5051.43 per sec.)
