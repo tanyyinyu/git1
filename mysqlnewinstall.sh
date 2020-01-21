@@ -1,6 +1,6 @@
 #! /bin/bash
 cd /usr/local/src
-yum install -y wget
+#yum install -y wget  #normally get the mysql.tar from other computer;
  #  wget -c https://cdn.mysql.com//Downloads/MySQL-5.6/mysql-5.6.46-linux-glibc2.12-x86_64.tar.gz
 if [ -f mysql-5.6.46-linux-glibc2.12-x86_64.tar.gz ]
   then
@@ -64,5 +64,5 @@ service mysqld start
         else
         echo "fault"
         fi
-mysqldump -uroot -A > /root/newdump.sql
+/usr/local/mysql/bin/mysqldump -uroot -A > /root/newdump.sql
 yum install -y sysbench
