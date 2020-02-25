@@ -64,7 +64,7 @@ show () {
 }
 
 average () {
-    for TRANS in `tail -$(($T2*7)) $LOG |grep "transaction"|awk '{print $2}'`
+    for TRANS in `tail -$(($T2*8)) $LOG |grep "transaction"|awk '{print $2}'`
 	do
 	  SUM=$((SUM+TRANS)) 
  	 done
