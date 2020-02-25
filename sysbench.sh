@@ -22,7 +22,7 @@ THREADS=50
 T2=1
 
 info () {
-  lscpu |grep "CPU(s):" >> $LOG ;lscpu |grep "Thread" >> $LOG; lscpu |grep "L[0-9]" >> $LOG
+  lscpu |grep "CPU(s):" >> $LOG ;lscpu |grep "Thread" >> $LOG; lscpu |grep "GHz" >> $LOG
   head -1 /proc/meminfo >> $LOG
   echo "--time=$TIME --tables=$T_NUM --table-size=$T_SIZE --threads=$THREADS $TEST_LUA $T2 times" >> $LOG
 }
@@ -64,7 +64,7 @@ show () {
 }
 
 average () {
-    for TRANS in `tail -$(($T2*10)) $LOG |grep "transaction"|awk '{print $2}'`
+    for TRANS in `tail -$(($T2*7)) $LOG |grep "transaction"|awk '{print $2}'`
 	do
 	  SUM=$((SUM+TRANS)) 
  	 done
