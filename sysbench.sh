@@ -83,6 +83,6 @@ do
   sysbench --mysql-host=$SQL_HOST --mysql-port=$SQL_PORT --mysql-user=$SQL_ID --mysql-password=$SQL_PW --mysql-db=testdb --report-interval=10  --time=$TIME --tables=$T_NUM --table-size=$T_SIZE --threads=$THREADS     $TEST_LUA run |egrep "transactions|queries" >> $LOG
   sysbench --mysql-host=$SQL_HOST --mysql-port=$SQL_PORT --mysql-user=$SQL_ID --mysql-password=$SQL_PW --mysql-db=testdb --report-interval=10  --time=$TIME --tables=$T_NUM --table-size=$T_SIZE --threads=$THREADS     $TEST_LUA cleanup
   clean
-  #show
+  show
 done
 average
