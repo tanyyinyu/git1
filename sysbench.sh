@@ -12,6 +12,8 @@ SQL_HOST=127.0.0.1
 SQL_PORT=3306
 
 #sysbench
+# choose from oltp_read_only.lua, oltp_read_write.lua, oltp_write_only.lua, select_random_points.lua select_random_ranges.lua
+# test/test_run.sh
 TEST_LUA=/usr/share/sysbench/oltp_read_write.lua
 TIME=60
 T_NUM=4
