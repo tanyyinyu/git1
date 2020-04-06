@@ -6,9 +6,9 @@ LOG=/root/"$DATE"sysbench.log
 
 ### need to be updated;
 #mysql
-SQL_ID=root    
-SQL_PW=Friday28
-SQL_HOST=127.0.0.1  
+SQL_ID=root
+SQL_PW=password
+SQL_HOST=localhost
 SQL_PORT=3306
 
 #sysbench
