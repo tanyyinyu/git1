@@ -1,0 +1,21 @@
+small 
+CPU(s):                2
+Thread(s) per core:    2
+型号名称：        Intel(R) Xeon(R) Platinum 8269CY CPU @ 2.50GHz
+MemTotal:        3688552 kB
+--time=60 --tables=4 --table-size=10000 --threads=50 /usr/share/sysbench/oltp_read_write.lua 1 times
+    queries performed:
+    transactions:                        65287  (1087.58 per sec.)
+    queries:                             1305888 (21754.07 per sec.)
+average Transaction is 65287
+
+优化mysql配置后
+CPU(s):                2
+Thread(s) per core:    2
+型号名称：        Intel(R) Xeon(R) Platinum 8269CY CPU @ 2.50GHz
+MemTotal:        3688552 kB
+--time=60 --tables=4 --table-size=10000 --threads=50 /usr/share/sysbench/oltp_read_write.lua 1 times
+    queries performed:
+    transactions:                        79800  (1329.31 per sec.)
+    queries:                             1596327 (26591.69 per sec.)
+average Transaction is 79800
